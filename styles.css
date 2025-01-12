@@ -1,0 +1,172 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Basic Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+header .btn {
+    background-color: #ff6347; 
+    padding: 10px ; 
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+} 
+
+/* About Section */
+#about {
+    background-color: white;
+    padding: 50px 0;
+}
+
+#about .container {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: white;
+    padding: 50px 0;
+}
+
+#projects .container {
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.project p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.project .btn {
+    margin-top: 15px;
+    background-color: #ff6347;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#contact .container {
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #ff6347;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skills-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
